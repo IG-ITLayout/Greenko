@@ -25,7 +25,7 @@ $('.sliderpage__text-inner').slick({
   fade: true,
   prevArrow: false,
   dots:true,
-  nextArrow:'<button  class="slick-btn slick-next"><img src="../img/arrow-r.svg" alt="next"></button>',
+  nextArrow:'<button  class="slick-btn slick-next"><img src="../img/arrow-r.png" alt="next"></button>',
   responsive: [
     {
       breakpoint: 732,
