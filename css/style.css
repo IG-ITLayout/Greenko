@@ -156,6 +156,7 @@ p {
   color: #ffffff;
   max-height: 793px;
   max-width: 1920px;
+  margin:0 auto;
 }
 .sliderpage {
   max-width: 1336px;
@@ -598,7 +599,7 @@ p {
   .footer__item-vertical-text {
     writing-mode: horizontal-tb;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
   }
   .left__inner {
     display: flex;
@@ -640,6 +641,9 @@ p {
   .footer__right {
     padding: 30px 39px 15px 39px;
   }
+  .footer__item-vertical-text{
+    padding-right:0px;
+  }
   .right__inner {
     display: flex;
     padding-left: 5px;
@@ -647,6 +651,10 @@ p {
   .left__inner {
     padding-left: 5px;
   }
+  .footer__btn {
+    justify-content: flex-start;
+    margin-left: 10px;
+}
 }
 @media (max-width: 320px) {
   .plant__text {
